@@ -116,13 +116,14 @@ color: #2563EB;
 }
 
 .card-containers{
-    width: 90%;
-    max-width: 1200px;
+    width:min(1200px, 90%);
+    /* max-width: 1200px; */
     margin: 0 auto;
 
     display:grid;
     grid-template-columns:repeat(2,1fr);
-    justify-content:space-evenly;
+    /* justify-content:space-evenly; */
     row-gap: 30px;
     column-gap:30px ;
 }
+
