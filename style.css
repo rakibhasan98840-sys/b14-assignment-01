@@ -78,7 +78,7 @@ h1{
 .card{
     
     border:1px solid#E5E7EB;
-    width: 643px;
+    width: 100%;
     
     box-sizing: border-box;
     overflow: hidden;
@@ -116,11 +116,13 @@ color: #2563EB;
 }
 
 .card-containers{
-    width: 1440px;
-    margin: 0 40px;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
 
     display:grid;
-    grid-template-columns:repeat(2,570px);
+    grid-template-columns:repeat(2,1fr);
     justify-content:space-evenly;
-    row-gap: 20px;
+    row-gap: 30px;
+    column-gap:30px ;
 }
