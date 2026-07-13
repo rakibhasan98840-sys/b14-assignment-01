@@ -1,1 +1,1 @@
-prompt 1:
+Prompt : Act as a senior front-end developer. Create a modern,"Digital Swag Bag & Perks" section for a DevConf 2026 landing page using only semantic HTML5 and pure CSS (no JavaScript, Bootstrap, or Tailwind). The design should be responsive. Use a dark navy blue background with white and vibrant blue as the primary accent colors. The section should visually match a professional developer conference website.
